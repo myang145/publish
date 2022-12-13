@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	background-color: #4c3228;
+}
+a:link{
+	color: #784b84;
+}
+a:visited{
+	color: #784b84;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: hotpink;
+}
+/*vertical Navigation bar */
+.navbar{
+	width: 100%;
+	background-color: #fadadd;
+	overflow: auto;
+}
+.navbar a{
+	float: center;
+	padding: 12px;
+	color: #fadadd;
+	text-decoration: none;
+	font-size: 17px;
+}
+.navbar a hover{
+	background-color: #fadadd;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	font-family: "Amatic SC", cursive;
+	margin: 0 auto;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav{
+	background-color: #fadadd;
+	border-bottom: 2px solid pink;
+	border-top: 2px soild pink;
+}
+nav a:link{
+	color: hotpink;
+}
+nav a:visited{
+	color: hotpink;
+}
+nav a:hover{
+	color: hotpink;
+}
+nav a:active{
+	color: hotpink;
+}
+
+h1{
+	text-align: center;
+	font-family: "Amatic SC", cursive; 
+	color: #fd5da8;
+}
+h2{
+	font-family: "Amatic SC", cursive;
+	color: #b99976;
+}
+h3{
+	font-family: "Amatic SC", cursive;
+	color: #6a4a3a;
+}
+dl, ol, ul{
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+blockquote{
+	font-family: "Amatic SC", cursive;
+	color: #de73ff;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+footer{
+	font-family: "Amatic SC", cursive;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 25px, 5em;
+	color: hotpink;
+
+}
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #402837;
+	padding: 10px 10px 10px 30px;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+*{
+	box-sizing: border-box;
+}
+
+.column{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+.row: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.circle{
+	border: 1px solid pink;
+	border-radius: 50%;
+	display: inline-block;
+}
+/* CSS for Tablets  */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+/* CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+
+
+
+
