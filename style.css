@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+body{
+	font-family: "lucida console", "courier new", monospace;
+	margin: 0;
+	background-color: white;
+}
+.header{
+	width: 100%;
+
+}
+h1{
+	text-align: center;
+	margin: 0;
+}
+h2{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+p{
+	text-align: center;
+}
+img{
+	border-radius: 8px;	
+	padding: 5px;
+	margin: 20px;
+}
+
+h6{
+	text-align: center;
+}
+nav{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	border-bottom: 2px solid pink;
+	border-top: 2px solid pink;
+	margin: 0;
+	padding: 20px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-left:0;
+	margin: 0 auto;
+}
+nav li{
+	display: inline;
+	background-color: #d099e2;
+	padding: 8px 10px;
+	border-radius: 50px;
+	margin: 3px 8px;
+	min-width: 150px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: darkpink;
+}
+nav a:visited{
+	color: darkpink;
+}
+nav a:hover{
+	color: drakpink;
+}
+nav a:active{
+	color: darkpink;
+}
+
+/*vertical Navigation bar */
+
+nav li:hover{
+	background-color: #d099e2;
+}
+main{
+	max-width: 1000px;
+	margin:  0px auto;
+	padding: 10px;
+}
+.icon-row{
+	padding: 75px 5px;
+	text-align: center;
+}
+/*resume*/
+.resume{
+	margin: 40px auto;
+	padding:50px 5%;
+	max-width: 1000px;
+	border: 1px solid lightgray;
+
+}
+.resume h1{
+	text-align: left;
+}
+@media only screen and (max-width:768px){
+	.resume{
+		border: none;
+		box-shadow: none;
+	}
+	.resume{
+		border-left: none;
+		padding-left: 0;
+	}
+}
+canvas{
+	margin: 0 auto;
+	display: block;
+	border: 5px solid purple;
+}
+.game-controls{
+	text-align: center;
+	margin-top: 25px;
+}
+.mybutton{
+	background-color: purple;
+	border-radius: 5px;
+	border: 1px solid purple;
+	display: inline-block;
+	padding: 15px 25px;
+}
+.mybutton:active {
+	position: relative;
+	top: 2px;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+.home-hero{
+	background-image: url(image/paris.jpg);
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 250px;
+	background-size: cover;
+	padding: 110px 20px 20px 40px;
+	background-position: center;
+	margin-bottom: 75px;
+}
+header img{
+	margin: 0 auto;
+	display: block;
+}
+.button{
+	display: flex;
+	margin: auto;
+	text-align: center;
+}
+footer{
+	text-align: center;
+	border-top: 5px solid darkgray;
+	padding: 20px;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: purple;
+}
+a:active{
+	color: purple;
+}
+
+/*Photos*/
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:auto;
+    margin: 3px 10px 10px 0;
+    max-width: 100%;
+    display: block;
+}
+.gallery .preview img{
+	padding: 1px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/* CSS for Tablets  */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+/* CSS for Smartphones  */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
